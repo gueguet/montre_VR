@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: 9669c1de7f332b841ab440a54f48feed
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 100 Main Plate_1
+    100002: 105 Barrel bridge_34
+    100004: 110 Train wheel bridge_27
+    100006: 121 Balancing bridge_25
+    100008: 125 Pallet bridge_21
+    100010: 180 Movement barrel complete_33
+    100012: 185 Barrel drum
+    100014: 190 Barrel cover
+    100016: 195 Barrel arbor
+    100018: 201 Centre wheel_13
+    100020: 210 Third wheel_15
+    100022: 220 Second wheel_14
+    100024: 240 Driver Cannon Pinion_2
+    100026: 250 Hour Wheel_3
+    100028: 260 Minute wheel_6
+    100030: "303 Two\x96piece regulator with pointer_32"
+    100032: 401 Winding stem_16
+    100034: 407 Winding pinion_18
+    100036: 410 Sliding pinion_17
+    100038: 415 Ratchet wheel_40
+    100040: 420 Crown wheel_39
+    100042: 422 Crown wheel ring_38
+    100044: 425 Click_41
+    100046: 435 Yoke_7
+    100048: 440 Yoke Spring Compressed_10
+    100050: 443 Setting Lever_9
+    100052: 445 Setting Lever Jumper_8
+    100054: 450 Setting Wheel_4
+    100056: 453 Intermediate Setting Wheel_5
+    100058: 5105 Screw for barrel bridge_35
+    100060: 5105 Screw for barrel bridge_36
+    100062: 5105 Screw for barrel bridge_37
+    100064: 5110 Screw for train wheel bridge_28
+    100066: 5110 Screw for train wheel bridge_29
+    100068: 5121 Screw for balance bridge_26
+    100070: 5125 Screw for pallet bridge_22
+    100072: 5125 Screw for pallet bridge_23
+    100074: 5415 Screw for ratchet wheel_42
+    100076: 5420 Screw for crown wheel_43
+    100078: 5425 Screw for click_44
+    100080: 5443 Screw for setting lever_12
+    100082: 5445 Screw for combined setting lever_11
+    100084: 705 Escape wheel_19
+    100086: 710 Pallet fork_20
+    100088: 721 Balance_24
+    100090: 770 Mainspring
+    100092: <Incabloc spring>-<Stock-Incabloc over-1>
+    100094: Body-Move/Copy1
+    100096: Boss-Extrude1
+    100098: Boss-Extrude12
+    100100: Boss-Extrude13[1]
+    100102: Boss-Extrude13[2]
+    100104: Boss-Extrude13[3]
+    100106: Boss-Extrude13[4]
+    100108: Boss-Extrude13[5]
+    100110: Boss-Extrude13[6]
+    100112: Boss-Extrude2
+    100114: Chamfer1
+    100116: Chamfer1 1
+    100118: Chamfer1 2
+    100120: Chamfer2
+    100122: Chamfer2 1
+    100124: Chamfer2 2
+    100126: Chamfer2 3
+    100128: Chamfer2 4
+    100130: Chamfer2 5
+    100132: Chamfer2 6
+    100134: Chamfer2 7
+    100136: Chamfer3
+    100138: Chamfer4
+    100140: CirPattern1
+    100142: CirPattern1 1
+    100144: CirPattern1 2
+    100146: CirPattern3
+    100148: Combine1
+    100150: Cut-Extrude-Thin1
+    100152: Cut-Extrude1
+    100154: Cut-Extrude1 1
+    100156: Cut-Extrude1[1]
+    100158: Cut-Extrude1[2]
+    100160: Cut-Extrude2
+    100162: Cut-Extrude3
+    100164: Cut-Extrude36
+    100166: Cut-Extrude44
+    100168: Cut-Extrude5
+    100170: Cut-Extrude7
+    100172: Cut-Revolve-Thin1
+    100174: Cut-Revolve1
+    100176: Cut-Revolve1 1
+    100178: Cut-Revolve3[2]
+    100180: Cut-Revolve9
+    100182: Cut-Sweep2
+    100184: ETA 6497-1 Movement
+    100186: Extrude-Thin1
+    100188: Extrude-Thin2
+    100190: Fillet1
+    100192: Fillet1 1
+    100194: Fillet1 2
+    100196: Fillet1 3
+    100198: Fillet1 4
+    100200: Fillet2
+    100202: Fillet3
+    100204: Fillet3 1
+    100206: Incabloc over_30
+    100208: Incabloc under_31
+    100210: //RootNode
+    100212: Revolve1
+    100214: Revolve1 1
+    100216: Revolve1 2
+    100218: Revolve1 3
+    100220: Revolve2
+    100222: Revolve2[1]
+    100224: Revolve2[2]
+    100226: Revolve3
+    100228: Revolve3 1
+    100230: Revolve4
+    100232: Save Bodies1
+    100234: Scale1[1]
+    100236: Scale1[2]
+    100238: Scale1[3]
+    100240: Split1[1]
+    100242: Split1[1] 1
+    100244: Split1[1] 2
+    100246: Split1[2]
+    100248: Split1[2] 1
+    100250: Split1[2] 2
+    100252: Split1[3]
+    100254: Split1[3] 1
+    100256: Split1[4]
+    100258: Split1[4] 1
+    100260: SurfaceCut1
+    100262: SurfaceCut3
+    100264: SurfaceCut5
+    100266: Sweep1
+    100268: Sweep5
+    400000: 100 Main Plate_1
+    400002: 105 Barrel bridge_34
+    400004: 110 Train wheel bridge_27
+    400006: 121 Balancing bridge_25
+    400008: 125 Pallet bridge_21
+    400010: 180 Movement barrel complete_33
+    400012: 185 Barrel drum
+    400014: 190 Barrel cover
+    400016: 195 Barrel arbor
+    400018: 201 Centre wheel_13
+    400020: 210 Third wheel_15
+    400022: 220 Second wheel_14
+    400024: 240 Driver Cannon Pinion_2
+    400026: 250 Hour Wheel_3
+    400028: 260 Minute wheel_6
+    400030: "303 Two\x96piece regulator with pointer_32"
+    400032: 401 Winding stem_16
+    400034: 407 Winding pinion_18
+    400036: 410 Sliding pinion_17
+    400038: 415 Ratchet wheel_40
+    400040: 420 Crown wheel_39
+    400042: 422 Crown wheel ring_38
+    400044: 425 Click_41
+    400046: 435 Yoke_7
+    400048: 440 Yoke Spring Compressed_10
+    400050: 443 Setting Lever_9
+    400052: 445 Setting Lever Jumper_8
+    400054: 450 Setting Wheel_4
+    400056: 453 Intermediate Setting Wheel_5
+    400058: 5105 Screw for barrel bridge_35
+    400060: 5105 Screw for barrel bridge_36
+    400062: 5105 Screw for barrel bridge_37
+    400064: 5110 Screw for train wheel bridge_28
+    400066: 5110 Screw for train wheel bridge_29
+    400068: 5121 Screw for balance bridge_26
+    400070: 5125 Screw for pallet bridge_22
+    400072: 5125 Screw for pallet bridge_23
+    400074: 5415 Screw for ratchet wheel_42
+    400076: 5420 Screw for crown wheel_43
+    400078: 5425 Screw for click_44
+    400080: 5443 Screw for setting lever_12
+    400082: 5445 Screw for combined setting lever_11
+    400084: 705 Escape wheel_19
+    400086: 710 Pallet fork_20
+    400088: 721 Balance_24
+    400090: 770 Mainspring
+    400092: <Incabloc spring>-<Stock-Incabloc over-1>
+    400094: Body-Move/Copy1
+    400096: Boss-Extrude1
+    400098: Boss-Extrude12
+    400100: Boss-Extrude13[1]
+    400102: Boss-Extrude13[2]
+    400104: Boss-Extrude13[3]
+    400106: Boss-Extrude13[4]
+    400108: Boss-Extrude13[5]
+    400110: Boss-Extrude13[6]
+    400112: Boss-Extrude2
+    400114: Chamfer1
+    400116: Chamfer1 1
+    400118: Chamfer1 2
+    400120: Chamfer2
+    400122: Chamfer2 1
+    400124: Chamfer2 2
+    400126: Chamfer2 3
+    400128: Chamfer2 4
+    400130: Chamfer2 5
+    400132: Chamfer2 6
+    400134: Chamfer2 7
+    400136: Chamfer3
+    400138: Chamfer4
+    400140: CirPattern1
+    400142: CirPattern1 1
+    400144: CirPattern1 2
+    400146: CirPattern3
+    400148: Combine1
+    400150: Cut-Extrude-Thin1
+    400152: Cut-Extrude1
+    400154: Cut-Extrude1 1
+    400156: Cut-Extrude1[1]
+    400158: Cut-Extrude1[2]
+    400160: Cut-Extrude2
+    400162: Cut-Extrude3
+    400164: Cut-Extrude36
+    400166: Cut-Extrude44
+    400168: Cut-Extrude5
+    400170: Cut-Extrude7
+    400172: Cut-Revolve-Thin1
+    400174: Cut-Revolve1
+    400176: Cut-Revolve1 1
+    400178: Cut-Revolve3[2]
+    400180: Cut-Revolve9
+    400182: Cut-Sweep2
+    400184: ETA 6497-1 Movement
+    400186: Extrude-Thin1
+    400188: Extrude-Thin2
+    400190: Fillet1
+    400192: Fillet1 1
+    400194: Fillet1 2
+    400196: Fillet1 3
+    400198: Fillet1 4
+    400200: Fillet2
+    400202: Fillet3
+    400204: Fillet3 1
+    400206: Incabloc over_30
+    400208: Incabloc under_31
+    400210: //RootNode
+    400212: Revolve1
+    400214: Revolve1 1
+    400216: Revolve1 2
+    400218: Revolve1 3
+    400220: Revolve2
+    400222: Revolve2[1]
+    400224: Revolve2[2]
+    400226: Revolve3
+    400228: Revolve3 1
+    400230: Revolve4
+    400232: Save Bodies1
+    400234: Scale1[1]
+    400236: Scale1[2]
+    400238: Scale1[3]
+    400240: Split1[1]
+    400242: Split1[1] 1
+    400244: Split1[1] 2
+    400246: Split1[2]
+    400248: Split1[2] 1
+    400250: Split1[2] 2
+    400252: Split1[3]
+    400254: Split1[3] 1
+    400256: Split1[4]
+    400258: Split1[4] 1
+    400260: SurfaceCut1
+    400262: SurfaceCut3
+    400264: SurfaceCut5
+    400266: Sweep1
+    400268: Sweep5
+    2100000: 'Material #25'
+    2100002: 'Material #26'
+    2100004: 'Material #27'
+    2100006: 'Material #28'
+    2100008: 'Material #29'
+    2100010: 'Material #30'
+    2100012: 'Material #31'
+    2100014: 'Material #32'
+    2100016: 'Material #33'
+    2300000: 185 Barrel drum
+    2300002: 190 Barrel cover
+    2300004: 195 Barrel arbor
+    2300006: 770 Mainspring
+    2300008: <Incabloc spring>-<Stock-Incabloc over-1>
+    2300010: Body-Move/Copy1
+    2300012: Boss-Extrude1
+    2300014: Boss-Extrude12
+    2300016: Boss-Extrude13[1]
+    2300018: Boss-Extrude13[2]
+    2300020: Boss-Extrude13[3]
+    2300022: Boss-Extrude13[4]
+    2300024: Boss-Extrude13[5]
+    2300026: Boss-Extrude13[6]
+    2300028: Boss-Extrude2
+    2300030: Chamfer1
+    2300032: Chamfer1 1
+    2300034: Chamfer1 2
+    2300036: Chamfer2
+    2300038: Chamfer2 1
+    2300040: Chamfer2 2
+    2300042: Chamfer2 3
+    2300044: Chamfer2 4
+    2300046: Chamfer2 5
+    2300048: Chamfer2 6
+    2300050: Chamfer2 7
+    2300052: Chamfer3
+    2300054: Chamfer4
+    2300056: CirPattern1
+    2300058: CirPattern1 1
+    2300060: CirPattern1 2
+    2300062: CirPattern3
+    2300064: Combine1
+    2300066: Cut-Extrude-Thin1
+    2300068: Cut-Extrude1
+    2300070: Cut-Extrude1 1
+    2300072: Cut-Extrude1[1]
+    2300074: Cut-Extrude1[2]
+    2300076: Cut-Extrude2
+    2300078: Cut-Extrude3
+    2300080: Cut-Extrude36
+    2300082: Cut-Extrude44
+    2300084: Cut-Extrude5
+    2300086: Cut-Extrude7
+    2300088: Cut-Revolve-Thin1
+    2300090: Cut-Revolve1
+    2300092: Cut-Revolve1 1
+    2300094: Cut-Revolve3[2]
+    2300096: Cut-Revolve9
+    2300098: Cut-Sweep2
+    2300100: Extrude-Thin1
+    2300102: Extrude-Thin2
+    2300104: Fillet1
+    2300106: Fillet1 1
+    2300108: Fillet1 2
+    2300110: Fillet1 3
+    2300112: Fillet1 4
+    2300114: Fillet2
+    2300116: Fillet3
+    2300118: Fillet3 1
+    2300120: Revolve1
+    2300122: Revolve1 1
+    2300124: Revolve1 2
+    2300126: Revolve1 3
+    2300128: Revolve2
+    2300130: Revolve2[1]
+    2300132: Revolve2[2]
+    2300134: Revolve3
+    2300136: Revolve3 1
+    2300138: Revolve4
+    2300140: Save Bodies1
+    2300142: Scale1[1]
+    2300144: Scale1[2]
+    2300146: Scale1[3]
+    2300148: Split1[1]
+    2300150: Split1[1] 1
+    2300152: Split1[1] 2
+    2300154: Split1[2]
+    2300156: Split1[2] 1
+    2300158: Split1[2] 2
+    2300160: Split1[3]
+    2300162: Split1[3] 1
+    2300164: Split1[4]
+    2300166: Split1[4] 1
+    2300168: SurfaceCut1
+    2300170: SurfaceCut3
+    2300172: SurfaceCut5
+    2300174: Sweep1
+    2300176: Sweep5
+    3300000: 185 Barrel drum
+    3300002: 190 Barrel cover
+    3300004: 195 Barrel arbor
+    3300006: 770 Mainspring
+    3300008: <Incabloc spring>-<Stock-Incabloc over-1>
+    3300010: Body-Move/Copy1
+    3300012: Boss-Extrude1
+    3300014: Boss-Extrude12
+    3300016: Boss-Extrude13[1]
+    3300018: Boss-Extrude13[2]
+    3300020: Boss-Extrude13[3]
+    3300022: Boss-Extrude13[4]
+    3300024: Boss-Extrude13[5]
+    3300026: Boss-Extrude13[6]
+    3300028: Boss-Extrude2
+    3300030: Chamfer1
+    3300032: Chamfer1 1
+    3300034: Chamfer1 2
+    3300036: Chamfer2
+    3300038: Chamfer2 1
+    3300040: Chamfer2 2
+    3300042: Chamfer2 3
+    3300044: Chamfer2 4
+    3300046: Chamfer2 5
+    3300048: Chamfer2 6
+    3300050: Chamfer2 7
+    3300052: Chamfer3
+    3300054: Chamfer4
+    3300056: CirPattern1
+    3300058: CirPattern1 1
+    3300060: CirPattern1 2
+    3300062: CirPattern3
+    3300064: Combine1
+    3300066: Cut-Extrude-Thin1
+    3300068: Cut-Extrude1
+    3300070: Cut-Extrude1 1
+    3300072: Cut-Extrude1[1]
+    3300074: Cut-Extrude1[2]
+    3300076: Cut-Extrude2
+    3300078: Cut-Extrude3
+    3300080: Cut-Extrude36
+    3300082: Cut-Extrude44
+    3300084: Cut-Extrude5
+    3300086: Cut-Extrude7
+    3300088: Cut-Revolve-Thin1
+    3300090: Cut-Revolve1
+    3300092: Cut-Revolve1 1
+    3300094: Cut-Revolve3[2]
+    3300096: Cut-Revolve9
+    3300098: Cut-Sweep2
+    3300100: Extrude-Thin1
+    3300102: Extrude-Thin2
+    3300104: Fillet1
+    3300106: Fillet1 1
+    3300108: Fillet1 2
+    3300110: Fillet1 3
+    3300112: Fillet1 4
+    3300114: Fillet2
+    3300116: Fillet3
+    3300118: Fillet3 1
+    3300120: Revolve1
+    3300122: Revolve1 1
+    3300124: Revolve1 2
+    3300126: Revolve1 3
+    3300128: Revolve2
+    3300130: Revolve2[1]
+    3300132: Revolve2[2]
+    3300134: Revolve3
+    3300136: Revolve3 1
+    3300138: Revolve4
+    3300140: Save Bodies1
+    3300142: Scale1[1]
+    3300144: Scale1[2]
+    3300146: Scale1[3]
+    3300148: Split1[1]
+    3300150: Split1[1] 1
+    3300152: Split1[1] 2
+    3300154: Split1[2]
+    3300156: Split1[2] 1
+    3300158: Split1[2] 2
+    3300160: Split1[3]
+    3300162: Split1[3] 1
+    3300164: Split1[4]
+    3300166: Split1[4] 1
+    3300168: SurfaceCut1
+    3300170: SurfaceCut3
+    3300172: SurfaceCut5
+    3300174: Sweep1
+    3300176: Sweep5
+    4300000: Revolve1
+    4300002: Cut-Extrude36
+    4300004: Fillet3
+    4300006: Revolve3
+    4300008: Revolve4
+    4300010: Boss-Extrude13[1]
+    4300012: Boss-Extrude13[2]
+    4300014: Boss-Extrude13[3]
+    4300016: Boss-Extrude13[4]
+    4300018: Boss-Extrude13[5]
+    4300020: Boss-Extrude13[6]
+    4300022: Cut-Extrude44
+    4300024: Cut-Revolve1
+    4300026: CirPattern1
+    4300028: CirPattern1
+    4300030: CirPattern1
+    4300032: CirPattern3
+    4300034: Fillet1
+    4300036: Chamfer3
+    4300038: Fillet2
+    4300040: Sweep1
+    4300042: Chamfer1
+    4300044: Cut-Extrude1
+    4300046: Split1[1]
+    4300048: Split1[2]
+    4300050: Split1[3]
+    4300052: Split1[4]
+    4300054: Split1[1]
+    4300056: Split1[2]
+    4300058: Split1[3]
+    4300060: Split1[4]
+    4300062: Cut-Revolve3[2]
+    4300064: Cut-Revolve9
+    4300066: Split1[1]
+    4300068: Split1[2]
+    4300070: Cut-Sweep2
+    4300072: Combine1
+    4300074: Cut-Extrude3
+    4300076: Chamfer1
+    4300078: Scale1[1]
+    4300080: Scale1[2]
+    4300082: Scale1[3]
+    4300084: Cut-Extrude2
+    4300086: Fillet3
+    4300088: Chamfer2
+    4300090: Chamfer2
+    4300092: Boss-Extrude12
+    4300094: Extrude-Thin2
+    4300096: SurfaceCut1
+    4300098: SurfaceCut3
+    4300100: SurfaceCut5
+    4300102: Cut-Extrude5
+    4300104: Chamfer2
+    4300106: Revolve1
+    4300108: Fillet1
+    4300110: Revolve2
+    4300112: Revolve3
+    4300114: Chamfer2
+    4300116: Chamfer2
+    4300118: Revolve2[1]
+    4300120: Revolve2[2]
+    4300122: Cut-Extrude7
+    4300124: Save Bodies1
+    4300126: Revolve1
+    4300128: <Incabloc spring>-<Stock-Incabloc over-1>
+    4300130: Cut-Extrude1[1]
+    4300132: Cut-Extrude1[2]
+    4300134: Cut-Extrude-Thin1
+    4300136: Boss-Extrude2
+    4300138: Body-Move/Copy1
+    4300140: Cut-Revolve1
+    4300142: Cut-Extrude1
+    4300144: 185 Barrel drum
+    4300146: 190 Barrel cover
+    4300148: 195 Barrel arbor
+    4300150: 770 Mainspring
+    4300152: Revolve1
+    4300154: Chamfer4
+    4300156: Sweep5
+    4300158: Chamfer2
+    4300160: Chamfer2
+    4300162: Chamfer2
+    4300164: Extrude-Thin1
+    4300166: Cut-Revolve-Thin1
+    4300168: Chamfer1
+    4300170: Boss-Extrude1
+    4300172: Fillet1
+    4300174: Fillet1
+    4300176: Fillet1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
