@@ -78,9 +78,9 @@ public class Hand : MonoBehaviour {
         m_CurrentInteractable.m_ActiveHand = this;
 
         // Stop the highlighting of the object 
+        
         m_CurrentInteractable.GetComponent<Renderer>().material.color = m_CurrentInteractable.GetComponent<HighlightObject>().m_OriginalColor;
         Destroy(m_CurrentInteractable.GetComponent<HighlightObject>());
-
 
     }
 

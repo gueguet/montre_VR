@@ -7,11 +7,10 @@ public class HighlightObject : MonoBehaviour {
     [HideInInspector]
     public Color m_OriginalColor;
 
-    public float speedColor = 1.0f;
-    private Color startColor = new Color(116, 240, 243);
-    private Color endColor = new Color(17, 42, 63);
+    public float speedColor = 2.5f;
+
     float startTime;
-    public bool repeatable = false;
+    public bool repeatable = true;
 
 
     private void Awake()
@@ -30,6 +29,10 @@ public class HighlightObject : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        var startColor = new Color(0.317f, 0.905f, 0.964f, 0.3f);
+        var endColor = new Color(0.023f, 0.031f, 0.274f, 0.3f);
+
         if (!repeatable)
         {
             float t = (Time.time - startTime) * speedColor;
@@ -42,6 +45,6 @@ public class HighlightObject : MonoBehaviour {
             GetComponent<Renderer>().material.color = Color.Lerp(startColor, endColor, t);
         }
 
-		
-	}
+
+    }
 }
